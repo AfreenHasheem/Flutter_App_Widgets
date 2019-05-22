@@ -2,6 +2,7 @@
 
 A new Flutter project. The project makes use of Box Constraints(i.e Rows and Columns) to display the name of a pizza and its ingredients.
 The image and font property is added to the pubspec.yaml file:
+```
 flutter:
    uses-material-design: true
    assets:
@@ -15,6 +16,9 @@ flutter:
             weight: 700
           - asset: lib/fonts/Oxygen-Light.ttf
             weight: 300
+```
+            
+            
             
   class PizzaImageWidget() : Returns a Container whose child is the image fetched from the Assets folder.
   class OrderButton() : Adds a floating button and the functionality for when the button is pressed. It also returns an alert dialog to display the alert.
